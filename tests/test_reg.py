@@ -8,7 +8,7 @@ class TestRegistration:
         driver.find_element(*Locators.LK_BUTTON_MAIN).click()
         driver.find_element(*Locators.REGISTER_BUTTON).click()
         driver.find_element(*Locators.NAME_INPUT_REG).send_keys('Юлия')
-        driver.find_element(*Locators.EMAIL_INPUT_REG).send_keys('yulia_yaskina_7_998@yandex.ru')
+        driver.find_element(*Locators.EMAIL_INPUT_REG).send_keys('yulia_yaskina_7_997@yandex.ru')
         driver.find_element(*Locators.PASSWORD_INPUT_REG).send_keys('123456')
         driver.find_element(*Locators.REGISTER_BUTTON_REG).click()
         time.sleep(3)
