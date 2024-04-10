@@ -24,3 +24,6 @@ class Locators:
     STUFFING_PARENT = (By.XPATH, ".//span[text()='Начинки']//parent::div[@class = 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']")
     ROLL = (By.XPATH,".//span[text()='Булки']")
     ROLL_PARENT = (By.XPATH, ".//span[text()='Булки']//parent::div[@class = 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']")
+    ENTER_TITLE = (By.XPATH,".//h2[text()='Вход']")
+    PROFILE = (By.XPATH,".//a[text()='Профиль']")
+    MAKE_BURGER_TITLE = (By.XPATH,".//h1[text()='Соберите бургер']")
